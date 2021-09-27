@@ -19,7 +19,7 @@ console.log("highest value is: number " + hi);*/
 
 
 
-var x = Math.floor((Math.random() *55) -15);
+/*var x = Math.floor((Math.random() *55) -15);
     console.log(x);
     if (x < 11) {
         document.write("the weather is cold");
@@ -30,7 +30,7 @@ var x = Math.floor((Math.random() *55) -15);
         } else {
             document.write("the weather is hot");
              document.getElementById("hot").style.display = "flex";
-        };
+        };*/
 
 /*let students = ["Martin", "Thomas", "Klaus", "Maria", "David"];
 let grades = [76, 85, 65, 93, 81];
@@ -46,15 +46,37 @@ for (let f = 0; f < grades.length; f++){
 }
 let avg = sum/grades.length;
 
-switch (avg) {
-    case (avg < 60): "F";break;
-    case (avg < 70): "D";break;
-    case (avg < 80): "C";break;
-    case (avg < 90): "B";break;
-    default: ('Class average grade is: ' + 'A');break;
-}
+if (avg < 60) {
+    document.write("Class average is " + avg + " points and the grade is: F");
+} else if (avg < 70) {
+    document.write("Class average is " + avg + " points and the grade is: D");
+} else if  (avg < 80){
+    document.write("Class average is " + avg + " points and the grade is: C");
+} else if  (avg < 90){
+    document.write("Class average is " + avg + " points and the grade is: B");
+} else {
+    document.write("Class average is " + avg + " points and the grade is: A");
+}*/
 
+/*let x="*";
 
+for ( let i = 0; i < 5; i++){
+    document.write(x + "<br>");
+     x=x+"*";
+}*/
 
-document.write('Class average grade is: ' + avg);*/
+var result = prompt("type your name");
+
+Students = ["John", "Jane"]
+
+MathGrades = [70, 85]
+
+/*for (result of Students) {
+    document.write(Students[i] + " has reached " + MathGrades[i] + " points im Math this season <br>");
+    }*/
+
+    
+for (let i = 0; i < MathGrades.length; i++){
+    document.write(Students[i] + " has reached " + MathGrades[i] + " points im Math this season <br>");
+    }
 
