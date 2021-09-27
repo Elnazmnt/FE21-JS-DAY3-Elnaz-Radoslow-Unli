@@ -23,11 +23,21 @@ console.log("highest value is: number " + hi);*/
     console.log(x);
     if (x < 11) {
         document.write("the weather is cold");
-        document.getElementById("cold").href ="./IMG/cold.jpg";
+        document.getElementById("cold").style.display = "flex";
         } else if (x < 32) {
             document.write("the weather is moderate");
-            document.getElementById("moderate");
+            document.getElementById("moderate").style.display = "flex";
         } else {
-            console.log("the weather is hot");
-            
+            document.write("the weather is hot");
+             document.getElementById("hot").style.display = "flex";
         };*/
+
+let students = ["Martin", "Thomas", "Klaus", "Maria", "David"];
+let grades = [76, 85, 65, 93, 81];
+
+document.write(students[0], grades[0]);
+document.write(students[1], grades[1]);
+document.write(students[2], grades[2]);
+document.write(students[3], grades[3]);
+document.write(students[4], grades[4]);
+
