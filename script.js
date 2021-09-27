@@ -18,13 +18,16 @@ hi = array[i+1];
 console.log("highest value is: number " + hi);*/
 
 
-var x = Math.floor((Math.random() *55) -15);
-    console.log(x);
 
+/*var x = Math.floor((Math.random() *55) -15);
+    console.log(x);
     if (x < 11) {
-        console.log("the weather is cold"); 
-        } else if (x < 26) {
-            console.log("the weather is moderate");
+        document.write("the weather is cold");
+        document.getElementById("cold").href ="./IMG/cold.jpg";
+        } else if (x < 32) {
+            document.write("the weather is moderate");
+            document.getElementById("moderate");
         } else {
             console.log("the weather is hot");
-        };
+            
+        };*/
